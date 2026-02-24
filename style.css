@@ -156,7 +156,7 @@ body { font-family: 'Roboto', sans-serif; overflow-x: hidden; color: #022D5E; }
 @media (min-width: 900px) {
   .partners__inner {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding: 80px 0;
     gap: 0;
   }
@@ -165,9 +165,11 @@ body { font-family: 'Roboto', sans-serif; overflow-x: hidden; color: #022D5E; }
   display: flex;
   flex-direction: column;
   gap: 40px;
-  max-width: 490px;
+  max-width: 760px;
   padding: 48px 40px;
   flex-shrink: 0;
+  text-align: center;
+  align-items: center;
 }
 .partners__heading {
   display: none;
